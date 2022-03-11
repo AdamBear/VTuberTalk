@@ -28,9 +28,9 @@ import yaml
 import sys
 from yacs.config import CfgNode
 
-from paddlespeech.t2s.data.get_feats import Energy
-from paddlespeech.t2s.data.get_feats import LogMelFBank
-from paddlespeech.t2s.data.get_feats import Pitch
+from paddlespeech.t2s.datasets.get_feats import Energy
+from paddlespeech.t2s.datasets.get_feats import LogMelFBank
+from paddlespeech.t2s.datasets.get_feats import Pitch
 
 sys.path.append("train/exps")
 from preprocess_utils import compare_duration_and_mel_length
